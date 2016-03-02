@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UILabel *_lblTotalMemory;
+    IBOutlet UILabel *_lblAvailableMemory;
+    
+    IBOutlet UILabel *_lblMemoryUntilWarning;
+    IBOutlet UILabel *_lblMemoryWhenCrashed;
+    
+    IBOutlet UIProgressView *_availableMemoryIndicator;
+    IBOutlet UIProgressView *_allocatedMemoryIndicator;
+    
+}
 
+- (IBAction)startAllocation:(id)sender;
 
 @end
 

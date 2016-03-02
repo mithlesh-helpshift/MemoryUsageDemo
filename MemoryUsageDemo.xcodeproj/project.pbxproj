@@ -15,6 +15,7 @@
 		BCFF538E1C87650B00158634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFF538C1C87650B00158634 /* LaunchScreen.storyboard */; };
 		BCFF53991C87650B00158634 /* MemoryUsageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF53981C87650B00158634 /* MemoryUsageDemoTests.m */; };
 		BCFF53A41C87650B00158634 /* MemoryUsageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF53A31C87650B00158634 /* MemoryUsageDemoUITests.m */; };
+		BCFF53B31C87655800158634 /* MemoryUsageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF53B21C87655800158634 /* MemoryUsageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BCFF539F1C87650B00158634 /* MemoryUsageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryUsageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFF53A31C87650B00158634 /* MemoryUsageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUsageDemoUITests.m; sourceTree = "<group>"; };
 		BCFF53A51C87650B00158634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFF53B11C87655800158634 /* MemoryUsageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryUsageController.h; sourceTree = "<group>"; };
+		BCFF53B21C87655800158634 /* MemoryUsageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryUsageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		BCFF537D1C87650B00158634 /* MemoryUsageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCFF53B11C87655800158634 /* MemoryUsageController.h */,
+				BCFF53B21C87655800158634 /* MemoryUsageController.m */,
 				BCFF53811C87650B00158634 /* AppDelegate.h */,
 				BCFF53821C87650B00158634 /* AppDelegate.m */,
 				BCFF53841C87650B00158634 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFF53B31C87655800158634 /* MemoryUsageController.m in Sources */,
 				BCFF53861C87650B00158634 /* ViewController.m in Sources */,
 				BCFF53831C87650B00158634 /* AppDelegate.m in Sources */,
 				BCFF53801C87650B00158634 /* main.m in Sources */,
